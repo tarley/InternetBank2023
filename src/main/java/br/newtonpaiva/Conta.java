@@ -4,6 +4,8 @@ public class Conta {
     private Integer numero;
     private Double saldo;
 
+    public Conta() {}
+
     public Conta(Integer numero) {
         this.numero = numero;
         this.saldo = 100.0;
